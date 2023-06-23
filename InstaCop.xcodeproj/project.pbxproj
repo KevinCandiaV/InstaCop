@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6187E02A451CF7007F11FF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6187DF2A451CF7007F11FF /* LoginView.swift */; };
 		0A6F21072A44DFAC00C6B7C6 /* InstaCopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F21062A44DFAC00C6B7C6 /* InstaCopApp.swift */; };
 		0A6F21092A44DFAC00C6B7C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F21082A44DFAC00C6B7C6 /* ContentView.swift */; };
 		0A6F210B2A44DFAD00C6B7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6F210A2A44DFAD00C6B7C6 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A6187DF2A451CF7007F11FF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0A6F21032A44DFAC00C6B7C6 /* InstaCop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6F21062A44DFAC00C6B7C6 /* InstaCopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCopApp.swift; sourceTree = "<group>"; };
 		0A6F21082A44DFAC00C6B7C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		0A6F21192A44E00E00C6B7C6 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				0A6187DF2A451CF7007F11FF /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				0A6F212A2A44EC2300C6B7C6 /* FeedCell.swift in Sources */,
 				0A6F21232A44E2E400C6B7C6 /* ProfileView.swift in Sources */,
 				0A6F21092A44DFAC00C6B7C6 /* ContentView.swift in Sources */,
+				0A6187E02A451CF7007F11FF /* LoginView.swift in Sources */,
 				0A6F21072A44DFAC00C6B7C6 /* InstaCopApp.swift in Sources */,
 				0A6F212C2A44F1D000C6B7C6 /* SearchView.swift in Sources */,
 				0A6F21262A44E81B00C6B7C6 /* UserStatView.swift in Sources */,
