@@ -83,7 +83,6 @@ struct ProfileView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        
                     } label: {
                         Image(systemName: "line.3.horizontal")
                             .foregroundColor(.black)

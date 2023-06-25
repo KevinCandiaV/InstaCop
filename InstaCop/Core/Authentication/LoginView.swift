@@ -15,6 +15,8 @@ struct LoginView: View {
         NavigationStack {
             VStack {
                 
+                Spacer()
+                
                 // MARK: - logo image
                 Image("InstagramLogo")
                     .resizable()
@@ -65,8 +67,47 @@ struct LoginView: View {
                 .padding(.vertical)
                 
                 HStack {
+                    Rectangle()
+                        .frame(width: (UIScreen.main.bounds.width / 2) - 40, height: 0.5)
                     
+                    Text("Or")
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                    
+                    Rectangle()
+                        .frame(width: (UIScreen.main.bounds.width / 2) - 40, height: 0.5)
                 }
+                .foregroundColor(.gray)
+                
+                HStack {
+                    Image("facebookLogoRounded")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                    
+                    Text("Continue with Facebook")
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color(.systemBlue))
+                }
+                .padding(.top, 8)
+                
+                Spacer()
+                
+                Divider()
+                
+                NavigationLink {
+                    Text("Nueva vista")
+                } label: {
+                    HStack(spacing: 3) {
+                        Text("Don't have an account?")
+                        
+                        Text("Sing Up")
+                            .fontWeight(.semibold)
+                    }
+                    .font(.footnote)
+                }
+                .padding(.vertical, 16)
+
 
             }
         }
