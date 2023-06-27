@@ -11,6 +11,7 @@
 		0A3AAAE32A491ECA00EC6570 /* CreateUserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3AAAE22A491ECA00EC6570 /* CreateUserNameView.swift */; };
 		0A3AAAE52A49243800EC6570 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3AAAE42A49243800EC6570 /* CreatePasswordView.swift */; };
 		0A3AAAE72A49255D00EC6570 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3AAAE62A49255D00EC6570 /* CompleteSignUpView.swift */; };
+		0A3AAAE92A4A115000EC6570 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3AAAE82A4A115000EC6570 /* User.swift */; };
 		0A6187E02A451CF7007F11FF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6187DF2A451CF7007F11FF /* LoginView.swift */; };
 		0A626F762A49068800BE9E33 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A626F752A49068800BE9E33 /* AddEmailView.swift */; };
 		0A6F21072A44DFAC00C6B7C6 /* InstaCopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F21062A44DFAC00C6B7C6 /* InstaCopApp.swift */; };
@@ -30,6 +31,7 @@
 		0A3AAAE22A491ECA00EC6570 /* CreateUserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameView.swift; sourceTree = "<group>"; };
 		0A3AAAE42A49243800EC6570 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		0A3AAAE62A49255D00EC6570 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
+		0A3AAAE82A4A115000EC6570 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0A6187DF2A451CF7007F11FF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0A626F752A49068800BE9E33 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
 		0A6F21032A44DFAC00C6B7C6 /* InstaCop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 		0A6F21152A44DFD500C6B7C6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0A3AAAE82A4A115000EC6570 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				0A6F21072A44DFAC00C6B7C6 /* InstaCopApp.swift in Sources */,
 				0A626F762A49068800BE9E33 /* AddEmailView.swift in Sources */,
 				0A3AAAE72A49255D00EC6570 /* CompleteSignUpView.swift in Sources */,
+				0A3AAAE92A4A115000EC6570 /* User.swift in Sources */,
 				0A6F212C2A44F1D000C6B7C6 /* SearchView.swift in Sources */,
 				0A3AAAE12A491DCB00EC6570 /* IGTextFieldModifier.swift in Sources */,
 				0A6F21262A44E81B00C6B7C6 /* UserStatView.swift in Sources */,
