@@ -1,28 +1,28 @@
 //
-//  ProfileView.swift
+//  CurrentUserProfileView.swift
 //  InstaCop
 //
-//  Created by Kevin Candia Villagómez on 22/06/23.
+//  Created by Kevin Candia Villagómez on 29/06/23.
 //
 
 import SwiftUI
 
-struct ProfileView: View {
-    // MARK: - Input user data
-    let user: User
+struct CurrentUserProfileView: View {
     // MARK: - Input for LazyGrid
     private let gridItems: [GridItem] = [
         .init(.flexible(),spacing: 1),
         .init(.flexible(),spacing: 1),
         .init(.flexible(),spacing: 1)
     ]
+    
     var body: some View {
+        NavigationStack {
             ScrollView {
                 // MARK: - Hearder
                 VStack(spacing: 10) {
                     // MARK: - pic and stats
                     HStack {
-                        Image(user.profileImageUrl ?? "")
+                        Image("profileSP")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 80,height: 80)
@@ -43,17 +43,12 @@ struct ProfileView: View {
                     
                     // MARK: - name and bio
                     VStack(alignment: .leading, spacing: 4) {
-                        if let fullname = user.fullname {
-                            Text(fullname)
-                                .font(.footnote)
-                                .fontWeight(.semibold)
-                        }
+                        Text("Totti Candia")
+                            .font(.footnote)
+                            .fontWeight(.semibold)
                         
-                        if let bio = user.bio {
-                            Text(bio)
-                                .font(.footnote)
-                        }
-                        
+                        Text("Lima, Peru")
+                            .font(.footnote)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.horizontal)
@@ -73,7 +68,7 @@ struct ProfileView: View {
                     
                     Divider()
                 }
-                // MARK: - Post Grid view 
+                // MARK: - Post Grid view
                 
                 LazyVGrid(columns: gridItems, spacing: 2) {
                     ForEach(0 ... 15, id: \.self) { index in
@@ -86,11 +81,21 @@ struct ProfileView: View {
             }
             .navigationTitle("Profile")
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                    } label: {
+                        Image(systemName: "line.3.horizontal")
+                            .foregroundColor(.black)
+                    }
+                }
+            }
+        }
     }
 }
 
-struct ProfileView_Previews: PreviewProvider {
+struct CurrentUserProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileView(user: User.MOCK_USERS[0])
+        CurrentUserProfileView()
     }
 }

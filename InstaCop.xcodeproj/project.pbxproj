@@ -24,6 +24,8 @@
 		0A6F21282A44EC1B00C6B7C6 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F21272A44EC1B00C6B7C6 /* FeedView.swift */; };
 		0A6F212A2A44EC2300C6B7C6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F21292A44EC2300C6B7C6 /* FeedCell.swift */; };
 		0A6F212C2A44F1D000C6B7C6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F212B2A44F1D000C6B7C6 /* SearchView.swift */; };
+		0AC226B72A4E983900BF1490 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC226B62A4E983900BF1490 /* CurrentUserProfileView.swift */; };
+		0AC226B92A4EA4AE00BF1490 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC226B82A4EA4AE00BF1490 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		0A6F21272A44EC1B00C6B7C6 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		0A6F21292A44EC2300C6B7C6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		0A6F212B2A44F1D000C6B7C6 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		0AC226B62A4E983900BF1490 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		0AC226B82A4EA4AE00BF1490 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				0A3AAAE82A4A115000EC6570 /* User.swift */,
+				0AC226B82A4EA4AE00BF1490 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				0A6F21222A44E2E400C6B7C6 /* ProfileView.swift */,
+				0AC226B62A4E983900BF1490 /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -284,7 +290,9 @@
 				0A6F21232A44E2E400C6B7C6 /* ProfileView.swift in Sources */,
 				0A3AAAE32A491ECA00EC6570 /* CreateUserNameView.swift in Sources */,
 				0A6F21092A44DFAC00C6B7C6 /* ContentView.swift in Sources */,
+				0AC226B92A4EA4AE00BF1490 /* Post.swift in Sources */,
 				0A6187E02A451CF7007F11FF /* LoginView.swift in Sources */,
+				0AC226B72A4E983900BF1490 /* CurrentUserProfileView.swift in Sources */,
 				0A6F21072A44DFAC00C6B7C6 /* InstaCopApp.swift in Sources */,
 				0A626F762A49068800BE9E33 /* AddEmailView.swift in Sources */,
 				0A3AAAE72A49255D00EC6570 /* CompleteSignUpView.swift in Sources */,
