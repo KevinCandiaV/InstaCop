@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A1B467A2A50A60100B9B441 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B46792A50A60100B9B441 /* PostGridView.swift */; };
 		0A1B467C2A50A88F00B9B441 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B467B2A50A88F00B9B441 /* ProfileHeaderView.swift */; };
+		0A1B467E2A50AE2100B9B441 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B467D2A50AE2100B9B441 /* UploadPostView.swift */; };
 		0A3AAAE12A491DCB00EC6570 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3AAAE02A491DCB00EC6570 /* IGTextFieldModifier.swift */; };
 		0A3AAAE32A491ECA00EC6570 /* CreateUserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3AAAE22A491ECA00EC6570 /* CreateUserNameView.swift */; };
 		0A3AAAE52A49243800EC6570 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3AAAE42A49243800EC6570 /* CreatePasswordView.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		0A1B46792A50A60100B9B441 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		0A1B467B2A50A88F00B9B441 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		0A1B467D2A50AE2100B9B441 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		0A3AAAE02A491DCB00EC6570 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
 		0A3AAAE22A491ECA00EC6570 /* CreateUserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameView.swift; sourceTree = "<group>"; };
 		0A3AAAE42A49243800EC6570 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 		0A6F211F2A44E05900C6B7C6 /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				0A1B467D2A50AE2100B9B441 /* UploadPostView.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A6F212A2A44EC2300C6B7C6 /* FeedCell.swift in Sources */,
+				0A1B467E2A50AE2100B9B441 /* UploadPostView.swift in Sources */,
 				0A6F21232A44E2E400C6B7C6 /* ProfileView.swift in Sources */,
 				0A3AAAE32A491ECA00EC6570 /* CreateUserNameView.swift in Sources */,
 				0A6F21092A44DFAC00C6B7C6 /* ContentView.swift in Sources */,
